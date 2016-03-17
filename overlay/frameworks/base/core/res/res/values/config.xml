@@ -74,9 +74,6 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
-    <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">false</bool>
-
     <!-- The duration (in milliseconds) that the radio will scan for a signal
          when there's no network connection. If the scan doesn't timeout, use zero -->
     <integer name="config_radioScanningTimeout">0</integer>
@@ -194,12 +191,6 @@
     <!-- bool value to for enabling motion accelerometer
     <bool name="use_motion_accel">false</bool>
     -->
-
-    <!-- Enable overlay for all location components. -->
-    <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
-    <string name="config_networkLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
-    <bool name="config_enableFusedLocationOverlay" translatable="false">false</bool>
-    <string name="config_fusedLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
 
     <!-- Device specific options -->
 
@@ -394,6 +385,6 @@
     <!-- Our modem doesn't support this query yet -->
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
 
-    <!-- Operating volatage for bluetooth controller. 0 by default-->
+    <!-- Operating voltage for bluetooth controller. 0 by default-->
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3700</integer>
 </resources>
